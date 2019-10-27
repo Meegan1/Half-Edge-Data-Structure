@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="face2faceindex" targetName="face2faceindex" />
+      <config projectName="face2faceindex" targetName="faceindex2directededge" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00626640-cfa6-4d28-a001-0d5311bf9543" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1SIZDm24PInnBkEhg8Tsu8T9JEM" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.faceindex2directededge - Horse">
+    <configuration name="face2faceindex - 2ballout" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/2ballout.tri 2ballout" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - 5bout" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/5bout.tri 5bout" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - 747" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/747.tri 747" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - Cube BAD" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/badcube.tri badcube" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - Cube" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/hexahedron.tri hexahedron" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - Horse" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/horse.tri horse" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - Lego" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/legoman.tri legoman" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - Tetrahedron BAD" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/tetrahedron_bad.tri tetrahedron_bad" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - Tetrahedron" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/tetrahedron.tri tetrahedron" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - Torus" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/torus.tri torus" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face2faceindex - fuelinject" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../models/fuelinject.tri fuelinject" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="face2faceindex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="face2faceindex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - 2ballout" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2ballout.face 2ballout" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - 5bout" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="5bout.face 5bout" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - 747" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="747.face 747" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - Cube BAD" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="badcube.face badcube" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - Cube" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hexahedron.face hexahedron" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - Horse" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="horse.face horse" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - Lego" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="legoman.face legoman" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - Torus" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="torus.face torus" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - fuelinject" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="fuelinject.face fuelinject" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - tetrahedron BAD" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="tetrahedron_bad.face tetrahedron_bad" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="faceindex2directededge - tetrahedron" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="tetrahedron.face tetrahedron" PASS_PARENT_ENVS_2="true" PROJECT_NAME="face2faceindex" TARGET_NAME="faceindex2directededge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="face2faceindex" RUN_TARGET_NAME="faceindex2directededge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.face2faceindex - Tetrahedron" />
+      <item itemvalue="CMake Application.face2faceindex - 5bout" />
+      <item itemvalue="CMake Application.face2faceindex - Tetrahedron BAD" />
+      <item itemvalue="CMake Application.face2faceindex - Cube" />
+      <item itemvalue="CMake Application.face2faceindex - Cube BAD" />
+      <item itemvalue="CMake Application.face2faceindex - Horse" />
+      <item itemvalue="CMake Application.face2faceindex - Torus" />
+      <item itemvalue="CMake Application.face2faceindex - 2ballout" />
+      <item itemvalue="CMake Application.face2faceindex - fuelinject" />
+      <item itemvalue="CMake Application.face2faceindex - 747" />
+      <item itemvalue="CMake Application.face2faceindex - Lego" />
+      <item itemvalue="CMake Application.faceindex2directededge - 5bout" />
+      <item itemvalue="CMake Application.faceindex2directededge - Cube" />
+      <item itemvalue="CMake Application.faceindex2directededge - Cube BAD" />
+      <item itemvalue="CMake Application.faceindex2directededge - Horse" />
+      <item itemvalue="CMake Application.faceindex2directededge - Torus" />
+      <item itemvalue="CMake Application.faceindex2directededge - tetrahedron" />
+      <item itemvalue="CMake Application.faceindex2directededge - tetrahedron BAD" />
+      <item itemvalue="CMake Application.faceindex2directededge - 2ballout" />
+      <item itemvalue="CMake Application.faceindex2directededge - fuelinject" />
+      <item itemvalue="CMake Application.faceindex2directededge - 747" />
+      <item itemvalue="CMake Application.faceindex2directededge - Lego" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00626640-cfa6-4d28-a001-0d5311bf9543" name="Default Changelist" comment="" />
+      <created>1571252952031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571252952031</updated>
+      <workItem from="1571252953723" duration="1179000" />
+      <workItem from="1571407439033" duration="8872000" />
+      <workItem from="1571700771073" duration="34199000" />
+      <workItem from="1572204872983" duration="1444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

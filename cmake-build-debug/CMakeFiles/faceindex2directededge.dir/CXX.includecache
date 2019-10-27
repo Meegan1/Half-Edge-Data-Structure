@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Cartesian3.h
+iostream
+-
+
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Face.h
+iostream
+-
+
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/FaceIndex2DirectedEdge.cpp
+fstream
+-
+FaceIndex2DirectedEdge.h
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/FaceIndex2DirectedEdge.h
+
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/FaceIndex2DirectedEdge.h
+vector
+-
+Cartesian3.h
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Cartesian3.h
+Face.h
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Face.h
+

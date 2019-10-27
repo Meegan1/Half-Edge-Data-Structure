@@ -1,0 +1,30 @@
+# University of Leeds 2018-2019
+# COMP 5812M Assignment 2
+# Jake Meegan
+# 201036375
+#
+# Object Name: badcube.face
+# Vertices=9 Faces=13
+#
+Vertex	0	-1.11111 -1.22222 -1.11111
+Vertex	1	-1.11111 -1.22222 0.88889
+Vertex	2	-1.11111 0.77778 0.88889
+Vertex	3	-1.11111 0.77778 -1.11111
+Vertex	4	0.88889 -1.22222 -1.11111
+Vertex	5	0.88889 0.77778 -1.11111
+Vertex	6	0.88889 -1.22222 0.88889
+Vertex	7	0.88889 0.77778 0.88889
+Vertex	8	0.88889 1.77778 0.88889
+Face	0	0 1 2
+Face	1	0 2 3
+Face	2	0 3 4
+Face	3	3 5 4
+Face	4	0 1 4
+Face	5	4 1 6
+Face	6	1 6 7
+Face	7	1 7 2
+Face	8	6 4 5
+Face	9	6 5 7
+Face	10	3 2 7
+Face	11	3 7 5
+Face	12	7 8 5

@@ -1,0 +1,4 @@
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/cmake-build-debug/CMakeFiles/faceindex2directededge.dir
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/cmake-build-debug/CMakeFiles/face2faceindex.dir
