@@ -13,6 +13,7 @@
 
 #include <fstream>
 #include "Face2FaceIndex.h"
+#include <cstring>
 
 bool Face2FaceIndex::ReadFileTriangleSoup(char *fileName) { // Face2FaceIndex::ReadFileTriangleSoup()
     // open the input file
@@ -35,12 +36,8 @@ bool Face2FaceIndex::ReadFileTriangleSoup(char *fileName) { // Face2FaceIndex::R
     // counter for vertices vector size
     unsigned long verticesCount = 0;
     // now loop to read the vertices in
-    unsigned long index;
-    for (index = 0; inFile; index++)
+    for (unsigned long index = 0; index < nVertices; index++)
     { // for each vertex
-        if(index >= nVertices) // fail if index is higher than stated number of vertices
-            return false;
-
         inFile >> tempVertices[index].x >> tempVertices[index].y >> tempVertices[index].z;
 
         // loop through currently stored vertices and check if exists
@@ -60,11 +57,8 @@ bool Face2FaceIndex::ReadFileTriangleSoup(char *fileName) { // Face2FaceIndex::R
         vertices.emplace_back();
         vertices[verticesCount].setValues(tempVertices[index].x, tempVertices[index].y, tempVertices[index].z);
         verticesCount++;
-        faces[index/3].setVertex(index%3, vertices.size()-1);
+        faces[index/3].setVertex(index%3, verticesCount-1);
     } // for each vertex
-
-    if(index < nVertices) // fail if iterated results is less than stated number of vertices
-        return false;
 
     inFile.close();
     return true;
@@ -87,7 +81,7 @@ void Face2FaceIndex::printFaces(std::ostream &outStream) {
 }
 
 void Face2FaceIndex::toFile(char *fName) {
-    strcat(fName, ".face"); // add .face suffix to output filename
+    std::strcat(fName, ".face"); // add .face suffix to output filename
     std::ofstream outFile(fName, std::ofstream::out);
 
     // output commented header to file
@@ -104,4 +98,6 @@ void Face2FaceIndex::toFile(char *fName) {
     printVertices(outFile);
     printFaces(outFile);
     outFile.close(); //  close file
+
+    std::cout << fName << " has been generated" << std::endl;
 }

@@ -1,9 +1,9 @@
-# University of Leeds 2018-2019
+# University of Leeds 2019-2020
 # COMP 5812M Assignment 2
 # Jake Meegan
 # 201036375
 #
-# Object Name: Cube
+# Object Name: torus.face
 # Vertices=32 Faces=64
 #
 Vertex	0	1 3 3.5
@@ -38,7 +38,6 @@ Vertex	28	1 0.5 2
 Vertex	29	0.5 1 1
 Vertex	30	1 1 0.5
 Vertex	31	1 0.5 1
-
 Face	0	0 1 2
 Face	1	0 2 3
 Face	2	0 4 1

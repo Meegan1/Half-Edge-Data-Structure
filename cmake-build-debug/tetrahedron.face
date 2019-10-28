@@ -4,14 +4,13 @@
 # 201036375
 #
 # Object Name: tetrahedron.face
-# Vertices=5 Faces=4
+# Vertices=4 Faces=4
 #
 Vertex	0	-1 -1 -1
 Vertex	1	1 -1 1
 Vertex	2	-1 1 1
 Vertex	3	1 1 -1
-Vertex	4	0 0 0
 Face	0	0 1 2
 Face	1	0 2 3
 Face	2	0 3 1
-Face	3	3 2 4
+Face	3	3 2 1

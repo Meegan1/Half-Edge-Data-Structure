@@ -1,16 +1,15 @@
-# University of Leeds 2018-2019
+# University of Leeds 2019-2020
 # COMP 5812M Assignment 2
 # Jake Meegan
 # 201036375
 #
-# Object Name: Cube
+# Object Name: tetrahedron_bad.face
 # Vertices=4 Faces=4
 #
 Vertex	0	-1 -1 -1
 Vertex	1	1 -1 1
 Vertex	2	-1 1 1
 Vertex	3	1 1 -1
-
 Face	0	0 1 2
 Face	1	2 3 0
 Face	2	2 1 3

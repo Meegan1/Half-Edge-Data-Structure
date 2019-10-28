@@ -1,4 +1,4 @@
-# University of Leeds 2018-2019
+# University of Leeds 2019-2020
 # COMP 5812M Assignment 2
 # Jake Meegan
 # 201036375
@@ -70,70 +70,6 @@ Vertex	60	2 3.29286 3
 Vertex	61	2 3 1.525
 Vertex	62	1 3.5 3
 Vertex	63	1.81 3 2
-FirstDirectedEdge	0	0
-FirstDirectedEdge	1	1
-FirstDirectedEdge	2	2
-FirstDirectedEdge	3	4
-FirstDirectedEdge	4	6
-FirstDirectedEdge	5	8
-FirstDirectedEdge	6	13
-FirstDirectedEdge	7	14
-FirstDirectedEdge	8	18
-FirstDirectedEdge	9	21
-FirstDirectedEdge	10	25
-FirstDirectedEdge	11	26
-FirstDirectedEdge	12	31
-FirstDirectedEdge	13	32
-FirstDirectedEdge	14	38
-FirstDirectedEdge	15	42
-FirstDirectedEdge	16	49
-FirstDirectedEdge	17	50
-FirstDirectedEdge	18	56
-FirstDirectedEdge	19	60
-FirstDirectedEdge	20	64
-FirstDirectedEdge	21	70
-FirstDirectedEdge	22	73
-FirstDirectedEdge	23	79
-FirstDirectedEdge	24	82
-FirstDirectedEdge	25	85
-FirstDirectedEdge	26	92
-FirstDirectedEdge	27	96
-FirstDirectedEdge	28	103
-FirstDirectedEdge	29	106
-FirstDirectedEdge	30	109
-FirstDirectedEdge	31	115
-FirstDirectedEdge	32	120
-FirstDirectedEdge	33	124
-FirstDirectedEdge	34	133
-FirstDirectedEdge	35	136
-FirstDirectedEdge	36	148
-FirstDirectedEdge	37	151
-FirstDirectedEdge	38	154
-FirstDirectedEdge	39	160
-FirstDirectedEdge	40	161
-FirstDirectedEdge	41	168
-FirstDirectedEdge	42	176
-FirstDirectedEdge	43	179
-FirstDirectedEdge	44	186
-FirstDirectedEdge	45	190
-FirstDirectedEdge	46	193
-FirstDirectedEdge	47	196
-FirstDirectedEdge	48	201
-FirstDirectedEdge	49	204
-FirstDirectedEdge	50	216
-FirstDirectedEdge	51	235
-FirstDirectedEdge	52	238
-FirstDirectedEdge	53	239
-FirstDirectedEdge	54	243
-FirstDirectedEdge	55	253
-FirstDirectedEdge	56	266
-FirstDirectedEdge	57	268
-FirstDirectedEdge	58	273
-FirstDirectedEdge	59	283
-FirstDirectedEdge	60	284
-FirstDirectedEdge	61	298
-FirstDirectedEdge	62	316
-FirstDirectedEdge	63	325
 Face	0	0 1 2
 Face	1	0 3 1
 Face	2	4 2 5

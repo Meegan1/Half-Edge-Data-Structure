@@ -13,7 +13,7 @@
 
 #include <fstream>
 #include "FaceIndex2DirectedEdge.h"
-
+#include <cstring>
 
 FaceIndex2DirectedEdge::FaceIndex2DirectedEdge() {
     vertices.resize(0);
@@ -67,7 +67,7 @@ bool FaceIndex2DirectedEdge::ReadFileFaceIndex(char *fileName) { // FaceIndex2Di
     // calculate total number of half-edges
     unsigned long totalHalfEdges = faces.size()*3;
 
-    firstDirectedEdge.reserve(vertices.size()); // allocate space for first edges
+    firstDirectedEdge.resize(vertices.size()); // allocate space for first edges
     for(unsigned long i = 0; i < firstDirectedEdge.size(); i++) {
         for(unsigned long j = 0; j < totalHalfEdges; j++) {
             if(faces[j/3].getVertex(j%3) == i) {
@@ -158,7 +158,7 @@ void FaceIndex2DirectedEdge::toFile(char *fName) {
         return;
     }
 
-    strcat(fName, ".diredge");
+    std::strcat(fName, ".diredge");
     std::ofstream outFile(fName, std::ofstream::out);
 
     outFile << "# University of Leeds 2019-2020" << std::endl;

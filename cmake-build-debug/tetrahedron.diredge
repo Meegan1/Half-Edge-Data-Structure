@@ -1,4 +1,4 @@
-# University of Leeds 2018-2019
+# University of Leeds 2019-2020
 # COMP 5812M Assignment 2
 # Jake Meegan
 # 201036375
@@ -10,10 +10,6 @@ Vertex	0	-1 -1 -1
 Vertex	1	1 -1 1
 Vertex	2	-1 1 1
 Vertex	3	1 1 -1
-FirstDirectedEdge	0	0
-FirstDirectedEdge	1	1
-FirstDirectedEdge	2	2
-FirstDirectedEdge	3	5
 Face	0	0 1 2
 Face	1	0 2 3
 Face	2	0 3 1
