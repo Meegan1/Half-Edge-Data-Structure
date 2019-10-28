@@ -1,6 +1,15 @@
+///////////////////////////////////////////////////
 //
-// Created by Jake Meegan on 16/10/2019.
 //
+//  Created by Jake Meegan on 16/10/2019.
+//
+//	------------------------
+//	Face2FaceIndex.h
+//	------------------------
+//
+//	A class for converting .tri files into .face
+//
+///////////////////////////////////////////////////
 
 #ifndef FACE2FACEINDEX_FACE2FACEINDEX_H
 #define FACE2FACEINDEX_FACE2FACEINDEX_H

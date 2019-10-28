@@ -1,3 +1,15 @@
+///////////////////////////////////////////////////
+//
+//
+//  Created by Jake Meegan on 16/10/2019.
+//
+//	------------------------
+//	FaceIndex.cpp
+//	------------------------
+//
+//  Entrypoint for .tri -> .face program
+//
+///////////////////////////////////////////////////
 #include <iostream>
 #include "Face2FaceIndex.h"
 

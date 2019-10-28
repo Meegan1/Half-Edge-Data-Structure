@@ -1,6 +1,15 @@
+///////////////////////////////////////////////////
 //
-// Created by Jake Meegan on 16/10/2019.
 //
+//  Created by Jake Meegan on 16/10/2019.
+//
+//	------------------------
+//	FaceIndex2DirectedEdge.cpp
+//	------------------------
+//
+//	A class for converting .face files into .diredge
+//
+///////////////////////////////////////////////////
 
 #include <fstream>
 #include "FaceIndex2DirectedEdge.h"
@@ -13,77 +22,83 @@ FaceIndex2DirectedEdge::FaceIndex2DirectedEdge() {
     otherHalf.resize(0);
 }
 
-bool FaceIndex2DirectedEdge::ReadFileFaceIndex(char *fileName) { // FaceIndex2DirectedEdge::ReadFileTriangleSoup()
+bool FaceIndex2DirectedEdge::ReadFileFaceIndex(char *fileName) { // FaceIndex2DirectedEdge::ReadFileFaceIndex()
     // open the input file
     std::ifstream inFile(fileName);
     if (inFile.bad())
         return false;
 
+    // get length of file
     inFile.seekg (0, inFile.end);
-    int length = inFile.tellg();
+    long length = inFile.tellg();
     inFile.seekg (0, inFile.beg);
 
 
+    // read through file to get vertices and faces
     while(inFile) {
         std::string string;
         inFile >> string;
-        if(string[0] == '#') {
+
+        if(string[0] == '#') { // if a comment, skip to next line
             inFile.ignore(length, '\n');
             continue;
         }
-        else if(string == "Vertex") {
-            long index;
-            inFile >> index;
+        else if(string == "Vertex") { // if vertex, read in next 4 values (index, x, y, z)
+            unsigned long index;
+            inFile >> index; // get index
 
-            if(index >= vertices.size())
+            if(index >= vertices.size()) // increase size of vertices if needed
                 vertices.resize(index+1);
 
-            inFile >> vertices[index].x >> vertices[index].y >> vertices[index].z;
+            inFile >> vertices[index].x >> vertices[index].y >> vertices[index].z; // store xyz
         }
-        else if(string == "Face") {
-            long index;
-            inFile >> index;
+        else if(string == "Face") { // if face, read in next 4 values (index, v1, v2, v3)
+            unsigned long index;
+            inFile >> index; // get index
 
-            if(index >= faces.size())
+            if(index >= faces.size()) // increase size of faces if needed
                 faces.resize(index+1);
 
-            inFile >> faces[index].v1 >> faces[index].v2 >> faces[index].v3;
+            inFile >> faces[index].v1 >> faces[index].v2 >> faces[index].v3; // store vertex ID's
         }
     }
-    inFile.close();
+    inFile.close(); // close file
 
+    // calculate total number of half-edges
     unsigned long totalHalfEdges = faces.size()*3;
 
-    firstDirectedEdge.resize(vertices.size());
+    firstDirectedEdge.reserve(vertices.size()); // allocate space for first edges
     for(unsigned long i = 0; i < firstDirectedEdge.size(); i++) {
         for(unsigned long j = 0; j < totalHalfEdges; j++) {
-            if(faces[j/3].getVertex(j%3) != i)
-                continue;
-
-            firstDirectedEdge[i] = j;
-            break;
+            if(faces[j/3].getVertex(j%3) == i) {
+                firstDirectedEdge[i] = j;
+                break;
+            }
         }
     }
 
     otherHalf.resize(totalHalfEdges, -1); // resize vector and set default to -1
-
     for(unsigned long i = 0; i < totalHalfEdges; i++) {
-        if(otherHalf[i] != -1)
+        if(otherHalf[i] != -1) // if already set, skip
             continue;
 
+        // get first and second vertex for the edge
         unsigned long firstVertex = faces[i/3].getVertex(i%3);
         unsigned long secondVertex = faces[i/3].getVertex((i+1)%3);
 
+        // search for edge pair (from current position -> end)
         for(unsigned long j = i+1; j < totalHalfEdges; j++) {
-            if(otherHalf[j] != -1)
+            if(otherHalf[j] != -1) // if already set, skip
                 continue;
 
+            // compare to see if edge is a pair
             if(firstVertex == faces[j/3].getVertex((j+1)%3) && secondVertex == faces[j/3].getVertex(j%3)) {
-                otherHalf[i] = j;
-                otherHalf[j] = i;
+                otherHalf[i] = j; // store pair in first half
+                otherHalf[j] = i; // store first half into pair
             }
         }
 
+        // if no pair is found, store failed edge in vector
         if(otherHalf[i] == -1)
             nonManifoldEdges.emplace_back(i);
     }

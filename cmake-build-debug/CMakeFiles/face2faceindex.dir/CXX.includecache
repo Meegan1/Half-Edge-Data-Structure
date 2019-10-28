@@ -10,6 +10,10 @@
 iostream
 -
 
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Face.cpp
+Face.h
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Face.h
+
 /Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Face.h
 iostream
 -
@@ -27,4 +31,10 @@ Cartesian3.h
 /Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Cartesian3.h
 Face.h
 /Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Face.h
+
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/FaceIndex.cpp
+iostream
+-
+Face2FaceIndex.h
+/Users/meegan1/Documents/University/Assignments/Foundations of Modelling and Rendering/Assignment 2/face2faceindex/Face2FaceIndex.h
 

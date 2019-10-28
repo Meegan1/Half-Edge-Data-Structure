@@ -1,9 +1,18 @@
+///////////////////////////////////////////////////
+//
+//
+//  Created by Jake Meegan on 16/10/2019.
+//
+//	------------------------
+//	Face.cpp
+//	------------------------
+//
+//	A minimal class for storing a face with its associated vertex ID's
+//
+///////////////////////////////////////////////////
 #include "Face.h"
 
-// constructors
-
-
-void Face::setVertex(unsigned int vertex, unsigned long value) {
+void Face::setVertex(unsigned long vertex, unsigned long value) {
     switch(vertex) {
         case 0:
             this->v1 = value;
@@ -19,7 +28,7 @@ void Face::setVertex(unsigned int vertex, unsigned long value) {
     }
 }
 
-unsigned long & Face::getVertex(unsigned int vertex) {
+unsigned long & Face::getVertex(unsigned long vertex) {
     switch(vertex) {
         case 0:
             return this->v1;

@@ -1,3 +1,15 @@
+///////////////////////////////////////////////////
+//
+//
+//  Created by Jake Meegan on 16/10/2019.
+//
+//	------------------------
+//	DirectedEdge.cpp
+//	------------------------
+//
+//  Entrypoint for .face -> .diredge program
+//
+///////////////////////////////////////////////////
 #include <iostream>
 #include "FaceIndex2DirectedEdge.h"
 

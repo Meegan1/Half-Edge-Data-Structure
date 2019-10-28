@@ -1,6 +1,15 @@
+///////////////////////////////////////////////////
 //
-// Created by Jake Meegan on 16/10/2019.
 //
+//  Created by Jake Meegan on 16/10/2019.
+//
+//	------------------------
+//	FaceIndex2DirectedEdge.h
+//	------------------------
+//
+//	A class for converting .face files into .diredge
+//
+///////////////////////////////////////////////////
 
 #ifndef FACEINDEX2DIRECTEDEDGE_FACEINDEX2DIRECTEDEDGE_H
 #define FACEINDEX2DIRECTEDEDGE_FACEINDEX2DIRECTEDEDGE_H

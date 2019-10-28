@@ -12,7 +12,32 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00626640-cfa6-4d28-a001-0d5311bf9543" name="Default Changelist" comment="" />
+    <list default="true" id="00626640-cfa6-4d28-a001-0d5311bf9543" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectedEdge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DirectedEdge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Face.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Face.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Face.h" beforeDir="false" afterPath="$PROJECT_DIR$/Face.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Face2FaceIndex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Face2FaceIndex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Face2FaceIndex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Face2FaceIndex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceIndex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FaceIndex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceIndex2DirectedEdge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FaceIndex2DirectedEdge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceIndex2DirectedEdge.h" beforeDir="false" afterPath="$PROJECT_DIR$/FaceIndex2DirectedEdge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/Face.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/Face.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/Face2FaceIndex.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/Face2FaceIndex.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/FaceIndex.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/face2faceindex.dir/FaceIndex.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/faceindex2directededge.dir/DirectedEdge.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/faceindex2directededge.dir/DirectedEdge.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/faceindex2directededge.dir/Face.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/faceindex2directededge.dir/Face.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/faceindex2directededge.dir/FaceIndex2DirectedEdge.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/faceindex2directededge.dir/FaceIndex2DirectedEdge.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/face2faceindex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/face2faceindex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/faceindex2directededge" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/faceindex2directededge" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/horse.diredge" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/horse.diredge" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/horse.face" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/horse.face" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/legoman.face" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/legoman.face" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tetrahedron.face" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tetrahedron.face" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +62,18 @@
     <select />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1SIZDm24PInnBkEhg8Tsu8T9JEM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,11 +241,22 @@
       <workItem from="1571252953723" duration="1179000" />
       <workItem from="1571407439033" duration="8872000" />
       <workItem from="1571700771073" duration="34199000" />
-      <workItem from="1572204872983" duration="1444000" />
+      <workItem from="1572204872983" duration="10417000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
